@@ -8,11 +8,10 @@ variable "yc_folder" {
   description = "Yandex Cloud folder"
 }
 
-variable "yc_token" {
-  type = string
-  description = "Yandex Cloud OAuth token"
-}
-
 variable "db_password" {
   description = "MySQL user pasword"
+}
+variable countofservers {
+  description = "Count of servers"
+  default     = 2
 }
