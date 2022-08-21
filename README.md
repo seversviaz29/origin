@@ -4,7 +4,7 @@ Terraform как инструмент для декларативного опи
 
 1)Прежде всего создал репозиторий в одном из облачных сервисов (Github) и склонировал его на рабочую станцию.
 
-git clone git@github.com/seversviaz29/origin.git
+git clone git@github.com:seversviaz29/origin.git
 
 2)Перешел в каталог с репозиторием и создал там директорию terraform:
 
